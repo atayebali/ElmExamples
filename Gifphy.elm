@@ -122,25 +122,3 @@ main =
         , subscriptions = (\_ -> Sub.none)
         }
 
-{--
-
-imagesDecoder : Decoder Images
-imagesDecoder =
-    decode
-      Images
-      |> required "data" (list ImageWrapper)
-
-
-
-imageDecoder : Decoder Image
-imageDecoder  =
-    decode
-      Image
-      |> required "images"
-
-gifDecoder : Decoder Gif
-gifDecoder =
-  decode
-      Gif
-      |> required "url"
---}
