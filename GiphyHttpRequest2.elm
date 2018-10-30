@@ -38,7 +38,7 @@ model =
 
 giphyBaseUrl : String
 giphyBaseUrl =
-    "https://api.giphy.com/v1/gifs/search?api_key=vykYBPvF8MRhJsjheTAsgDomFfwpiIto"
+    "https://api.giphy.com/v1/gifs/search?api_key="
 
 giphyParams : String
 giphyParams =
